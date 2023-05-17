@@ -1,0 +1,32 @@
+body{
+
+    padding: 0.5rem;
+  
+
+}
+
+
+
+
+article{
+    background-color: aliceblue;
+}
+
+section{
+    display: grid;
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  
+    section{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+  
+    section{
+        grid-template-columns: auto auto;
+    }
+}
