@@ -24,7 +24,7 @@ import Contact from './pages/Contact';
 import Error from './pages/Error.js'
 import User from './pages/User.js';
 import Pagetitle from './Helmet/Pagetitle';
-
+import Memo from './react-memo/Memo.js'
 import Navber from './ComWithRouter/Navber';
 
 import Index from './routes/index';
@@ -157,6 +157,11 @@ const App = () => {
      {/* <Pagetitle title="Home Page"> */}
      
      <Pagetitle title='all blogs page'/>
+
+     <hr></hr> 
+
+      <Memo />
+
 
     </div>
   )
